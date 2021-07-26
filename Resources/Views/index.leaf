@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>#(title)</title>
+</head>
+
+<body>
+  <h1>#(title)</h1>
+  <form action="/todos" method="POST">
+    <input name="title" />
+    <input type="hidden" name="isCompleted" value="" />
+    <button type="submit">Create ToDo</button>
+  </form>  
+</body>
+</html>
